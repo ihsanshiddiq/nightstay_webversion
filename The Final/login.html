@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--
+    contributor : [glico, ceruleaf, kertaskocak, akupipul]
+-->
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Javascript LINK -->
+    <script type="text/javascript" src="javascripts.js"></script>
+
+    <!-- JS LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <title> LoginCopy - Trial and Error | Night Stay</title>
+</head>
+
+<body>
+
+
+    <!-- Navbar Section -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark py-0">
+        <div class="container">
+            <a class="navbar-brand px-0" style="padding-top: 1%;" href="index.html">
+                <h1 style="padding-left: 3.5px;"><img src="Assets/5.svg" alt="..." height="36"
+                        style="margin-bottom: 7px; padding-right: 2%;">NIGHT STAY</h1>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown mx-0">
+                        <a class="nav-link dropdown-toggle mx-0" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Hotel
+                        </a>
+                        <ul class="ddbg dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="rooms.html" style="color: black;">Rooms</a></li>
+                            <li><a class="dropdown-item" href="facilities.html" style="color: black;">Facilities</a>
+                            </li>
+                            <li><a class="dropdown-item" href="dinebar.html" style="color: black">Dine & Bar</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item helpsupport">
+                        <a class="nav-link" href="faq.html">Help/Support</a>
+                    </li>
+                    <li class="btnlogin nav-item active currentpage">
+                        <a class="nav-link" style="color: black;"><b>Login</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- Page Content -->
+    <div class="parallax">
+        <div class="loginpage container">
+            <div class="loginbg">
+                <h1 style="margin-top: 1%; margin-bottom: 1%;">Login</h1>
+                <form class="loginform" onSubmit="return validasi()" action="login.php" method="post">
+                    <div class="form-group">
+
+                        <input type="email" class="form-control entrylogin2" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="Enter email" name="email">
+
+                    </div>
+                    <div class="form-group">
+
+                        <input type="password" class="form-control entrylogin2" id="exampleInputPassword1"
+                            placeholder="Password" name="password">
+                    </div>
+                    <button type="submit" class="btn btn-primary my-3">Submit</button>
+                </form>
+                <p>Don't have an account yet? <a href="register.html">Create one</a></p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+
+<script type="text/javascript">
+    function validasi() {
+        var email = document.getElementById("exampleInputEmail1").value;
+        var password = document.getElementById("exampleInputPassword1").value;
+        if (email != "" && password != "") {
+            return true;
+        } else {
+            alert('Email dan Password harus di isi !');
+            return false;
+        }
+    }
+
+</script>
+
+</html>

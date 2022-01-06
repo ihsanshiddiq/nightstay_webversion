@@ -1,0 +1,598 @@
+*{
+  font-family: Poppins;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("Assets/main.svg");
+
+  /* Full height */
+  height: 100%;
+  width: 100% !important;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxfaq {
+  background-image: url("Assets/helena-lopes-QpjyqYy5R-U-unsplash.jpg");
+
+  /* Full height */
+  height: 100vh;
+  width: 100% !important;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax  h1 {
+  color: white;
+  font-size: 40px;  
+}
+.parallax  h3 {
+  color: white;
+  
+}
+
+.parallax p {
+  margin-top: 2%;
+  color: white;
+  font-size: 20px;
+}
+
+.parallaxaboutus {
+  /* The image used */
+  background-image: url("Assets/aboutusbg.png");
+
+  /* Full height */
+  height: 100%;
+  width: 100% !important;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxaboutus  h1 {
+  color: white;
+  font-size: 40px;  
+}
+.parallaxaboutus  h3 {
+  color: white;
+  
+}
+
+.parallaxaboutus p {
+  margin-top: 2%;
+  color: white;
+  font-size: 20px;
+}
+
+.parallaxregister {
+  background-image: url("Assets/main.svg");
+
+  /* Full height */
+  min-height: 100vh;
+  min-width: 100vh !important;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+#navbar {
+  background-color: #333;
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  opacity: 0.5;  
+  z-index: 9999;
+}
+
+
+#navbar:hover {
+  opacity: 100%;
+}
+
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 11px;
+  text-decoration: none;
+  
+}
+
+#navbari {
+    
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  opacity: 0.5;  
+}
+#navbari:hover {
+  opacity: 100%;
+}
+
+
+/* Style the navbar links */
+#navbari a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 11px;
+  text-decoration: none;
+
+}
+
+.btnlogin {
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.nav-item {
+    margin-left: 1%;
+    margin-right: 1%;
+    display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.nav-item:after  {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-item:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.aboutus {
+  background-color: #CAAE95;
+}
+
+.aboutquote {
+  font-size: 50px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+
+
+.register {
+  background-color: #CAAE95;
+  border-radius: 20px;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  color: white;
+  text-align: left;
+  padding-left: 5%;
+}  
+.register h2,input {
+  margin-left: 20%;
+}  
+
+.loginform {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.entry {
+  margin-left: 20%;
+  margin-bottom: 3%;
+} 
+
+.entrylogin {
+  margin-bottom: 2%;
+}
+.entrylogin2 {
+  margin-top: 4%;
+}
+
+
+
+input, button{
+  background-color:#DDCEC0;
+
+  height: 48px;
+  width: 320px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  border: none;
+
+}
+
+.loginpage {
+text-align: center;
+padding-top: 15%;
+
+height: 100vh;
+}
+
+
+
+.loginbg {
+background: rgba(0,0,0,.7);
+border-radius: 20px;
+margin-left: 34%;
+margin-right: 33.5%;
+text-align: center;
+align-content: center;
+padding-top: 1%;
+padding-bottom: 2%;
+
+}
+
+.loginbg p {
+font-size: 18px;
+}
+
+.roomcarousel {
+
+}
+
+.carouselimg {
+height: 120vh;
+}
+
+.containerfaq {
+padding-top: 12vh;
+/*background-color: #CAAE95; */
+}
+
+.faqq {
+margin-bottom: 1%;
+}
+
+.hfaq {
+margin-bottom: 2%;
+}
+
+.contentfaq {
+background-color: #CAAE95;
+padding: 4%;
+border-radius: 20px;
+box-shadow: 20px 20px #6F5034;
+}
+
+.h1home{
+font-size: 65px;
+}
+
+.transitionbrown {
+background-color:#6F5034;
+padding-top: 3%;
+padding-bottom: 2%;
+text-align: center;
+
+}
+
+.transitionwhite {
+background-color: white;
+color: black;
+font-family: Poppins;
+padding-top: 3%;
+padding-bottom: 2%;
+text-align: center;
+
+font-size: 25px;
+}
+
+.transitiontext {
+color: white;
+font-size: 25px;
+}
+
+.facilitytext {
+color: white;
+font-family: 'Alex Brush';
+font-size: 60px;
+}
+
+.facilities {
+background-color: #211E1E;
+padding-top: 4%;
+padding-bottom: 4%;
+}
+
+.facilitypictbox {
+width: 70%;
+
+/*border-color: #6F5034;*/
+box-shadow: 20px 20px #6F5034;
+margin-bottom: 3%;
+margin-left: 22vh;
+
+}
+.roomview {
+width: 70%;
+
+/*border-color: #6F5034;*/
+box-shadow: 20px 20px #6F5034;
+margin-bottom: 3%;
+margin-left: 22vh; 
+}
+
+.roomview img {
+height: 70vh !important;
+}
+
+.facilitypictboxcarousel {
+width: 70%;
+/*border-color: #6F5034;*/
+box-shadow: 20px 20px #6F5034;
+margin-bottom: 3%;
+margin-left: 22vh;
+height: 30%;
+}
+
+.facilitydesc {
+color: white;
+font-size: 22px;
+margin-left: 22vh;
+margin-right: 18vh;
+}
+
+.fasilitas {
+text-align: justify;
+margin-bottom: 5%;
+}
+.carousel {
+z-index: 999;
+}
+
+.roomcarouselbg {
+/*background-image: url("Assets/dineandbarbg1.jpg");*/
+margin-bottom: 5%;
+z-index: 100;
+
+
+}
+.darkenbg {
+background-color: #000000;
+opacity: 60%;
+z-index: 500;
+}
+
+#darkbg { 
+background: rgba(0, 0, 0, 0.7) url("Assets/dineandbarbg1.jpg");
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: darken;
+margin-bottom: 0;
+}
+
+.roomdesc {
+ top: 0;
+ background-color: #CAAE95;
+ margin-bottom: 3%;
+ padding-top: 2%;
+ padding-bottom: 2%;
+ border-radius: 10px;
+}
+.roomdesc p{
+ font-size: 22px;
+ margin: 0;
+}
+
+.currentpage {
+border-bottom: 3px white solid;
+}
+
+.carouselnostretch {
+margin-bottom: 21vh;
+}
+.carouselnostretch2 {
+margin-bottom: 22vh;
+}
+.ddbg {
+color:#211E1E;
+}
+
+.roomtype {
+margin-left: 60vh;
+width: 30vh;
+font-family: Poppins;
+}
+
+.roomspace {
+margin-top: 5vh;
+
+}
+
+.pricing {
+
+}
+
+.tipekamar {
+background-color: #211E1E;
+border-radius: 15px;
+}
+
+.parallaxdineandbar2 {
+/* The image used */
+background-image: url("Assets/dineandbarbg1.jpg");
+
+/* Full height */
+height: 100%;
+width: 100% !important;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallaxdineandbar2  h1 {
+color: white;
+font-size: 100px;  
+font-family: 'Alex Brush';
+text-shadow: 2px 2px 4px #000000;
+}
+
+.parallaxdineandbar2 p {
+margin-top: 2%;
+color: white;
+font-size: 50px;
+font-family: 'Alex Brush';
+text-shadow: 2px 2px 4px #000000;
+}
+
+.parallaxdineandbar {
+/* The image used */
+background-image: url("Assets/dineandbarbg.jpg");
+
+/* Full height */
+height: 100%;
+width: 100% !important;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallaxdineandbar  h1 {
+color: white;
+font-size: 100px;  
+font-family: 'Alex Brush';
+text-shadow: 2px 2px 4px #000000;
+}
+.parallaxdineandbar  h3 {
+color: white;
+
+}
+
+.parallaxdineandbar p {
+margin-top: 2%;
+color: white;
+font-size: 50px;
+font-family: 'Alex Brush';
+text-shadow: 2px 2px 4px #000000;
+}
+
+.cantik {
+font-family: 'Alex Brush';
+}
+
+
+.dineandbardesc1 {
+font-size: 30px;
+text-align: left;
+margin-bottom: unset;
+}
+
+.dineandbardesc2 {
+font-size: 30px;
+text-align: right;
+margin-bottom: unset;
+}
+.dineandbardesc2text {
+font-size: 18px;
+text-align: right;
+margin-bottom: unset;
+}
+
+
+
+.parallax1 {
+/* The image used */
+background-image: url("Assets/main1.jpg");
+
+/* Full height */
+height: 100%;
+width: 100% !important;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax2 {
+/* The image used */
+background-image: url("Assets/main.svg");
+
+/* Full height */
+height: 100%;
+width: 100% !important;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax3 {
+/* The image used */
+background-image: url("Assets/main2.png");
+
+/* Full height */
+height: 100%;
+width: 100% !important;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax4 {
+/* The image used */
+background-image: url("Assets/main3.png");
+/* Full height */
+height: 100%;
+width: 100% !important;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.ourbest {
+margin-top: 3vh;
+margin-right: 33vh;
+text-align: center;
+color: white;
+font-family: 'Alex Brush';
+font-size: 50px;
+}
+
+.ourbestvid1 {
+width: 70vh;
+
+}
